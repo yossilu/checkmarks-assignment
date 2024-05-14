@@ -29,8 +29,8 @@ npm install
 cd backend
 npm install
 
-## Running the Application
-
+## Running the frontend Application
+cd frontend
 npm run dev
 
 # In another terminal, start the Node.js backend
