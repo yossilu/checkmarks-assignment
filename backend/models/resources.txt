@@ -1,0 +1,70 @@
+
+{
+  "resources": [
+    {
+      "name": "AMQ_1",
+      "access": "public",
+      "fileName": "tmp/936296693/InfraForShop/amq_1.tf",
+      "type": "aws_mq_broker",
+      "category": "Queues",
+      "actions": [
+        "Read",
+        "Write"
+      ],
+      "microservices": [
+        "f132d201-7fc7-426c-ac5c-80b8cb0296ec",
+        "7cf4b20d-573f-4909-9eae-b562fcbdd60a"
+      ]
+    },
+    {
+      "name": "MemCache_2",
+      "access": "unknown",
+      "fileName": "tmp/936296693/InfraForShop/el_ache_2.tf",
+      "type": "aws_elasticache_cluster",
+      "category": "In Memory Data Structure",
+      "actions": [
+        "Read",
+        "Write"
+      ],
+      "microservices": [
+        "f132d201-7fc7-426c-ac5c-80b8cb0296ec"
+      ]
+    },
+    {
+      "name": "MemCache_1",
+      "access": "private",
+      "fileName": "tmp/936296693/InfraForShop/el_ache_1.tf",
+      "type": "aws_elasticache_cluster",
+      "category": "In Memory Data Structure",
+      "actions": [
+        "Read",
+        "Write"
+      ],
+      "microservices": [
+	"7cf4b20d-573f-4909-9eae-b562fcbdd60a"
+      ]
+    },
+    {
+      "name": "S3_1",
+      "access": "public",
+      "fileName": "tmp/936296693/InfraForShop/s3_1.tf",
+      "type": "aws_s3_bucket",
+      "category": "Storage",
+      "actions": [
+        "Read",
+        "Write"
+      ],
+      "microservices": [
+        "f132d201-7fc7-426c-ac5c-80b8cb0296ec",
+        "7cf4b20d-573f-4909-9eae-b562fcbdd60a"
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+

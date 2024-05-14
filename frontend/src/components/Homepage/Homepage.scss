@@ -1,0 +1,18 @@
+
+.homepage-main {
+    width: 100%;
+    position: relative;
+    height: 100%;
+
+    .layout-buttons {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99999999;
+    }
+
+    .lang-icon {
+        width: 19px;
+        height: 19px;
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "microservices": [
+    {
+      "microserviceId": "f132d201-7fc7-426c-ac5c-80b8cb0296ec",
+      "language": "Java"
+    },
+    {
+      "microserviceId": "7cf4b20d-573f-4909-9eae-b562fcbdd60a",
+      "language": "Python"
+    },
+    {
+      "microserviceId": "5a035c2d-f9e4-4f0e-8b0d-2159f2f5521a",
+      "language": "Csharp"   
+    }
+  ]
+}
