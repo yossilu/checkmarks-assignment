@@ -1,13 +1,11 @@
 # checkmarks-assignment
 
-# Project Name
-
 This project is a modern web application built using Vite, React, and Node.js. It leverages the speed of Vite for development and the power of React for building a responsive and dynamic user interface, all powered by a robust Node.js backend.
 
 ## Features
 
 - **Fast Compilation:** Utilizes Vite for blazing fast rebuilds.
-- **React:** Leverages React 18 for efficient UI development.
+- **React:** Leverages React 16.8+ for efficient UI development.
 - **Node.js Backend:** A simple yet powerful server using Express.
 - **API Integration:** RESTful API example included.
 - **Responsive Design:** Adapts smoothly to different screen sizes.
@@ -15,7 +13,7 @@ This project is a modern web application built using Vite, React, and Node.js. I
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (v14 or newer)
+- [Node.js](https://nodejs.org/) (v20 or newer)
 - [npm](https://npmjs.com/) (comes with Node.js)
 - Optionally, [Yarn](https://yarnpkg.com/) as an alternative to npm
 
@@ -27,3 +25,12 @@ Clone the repository and install dependencies:
 git clone https://github.com/yourusername/projectname.git
 cd projectname
 npm install
+
+
+## Running the Application
+
+npm run dev
+
+# In another terminal, start the Node.js backend
+cd backend
+node server.
