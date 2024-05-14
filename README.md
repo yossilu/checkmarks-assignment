@@ -22,10 +22,12 @@ Before you begin, ensure you have the following installed:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/projectname.git
-cd projectname
+git clone https://github.com/yossilu/checkmarks-assignment.git
+cd frontend
 npm install
 
+cd backend
+npm install
 
 ## Running the Application
 
